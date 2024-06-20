@@ -7,36 +7,43 @@
     <title>Website Under Construction</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f3f3f3;
-            color: #333;
-            text-align: center;
-            padding: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
 
         .container {
-            background: #fff;
-            padding: 30px;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: #34495e;
+            padding: 40px 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
             max-width: 600px;
         }
 
         h1 {
-            color: #ff6347;
+            color: #e74c3c;
+            font-size: 2.5em;
+            margin-bottom: 20px;
         }
 
         p {
-            font-size: 18px;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            line-height: 1.6;
         }
 
         .spinner {
             margin: 20px auto;
-            width: 40px;
-            height: 40px;
-            border: 4px solid rgba(0, 0, 0, 0.1);
-            border-top: 4px solid #ff6347;
+            width: 50px;
+            height: 50px;
+            border: 6px solid rgba(255, 255, 255, 0.3);
+            border-top: 6px solid #e74c3c;
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
@@ -50,15 +57,22 @@
                 transform: rotate(360deg);
             }
         }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #bdc3c7;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <h1>We're Under Construction</h1>
-        <p>Our website is currently under construction. We'll be here soon with our new awesome site.</p>
+        <p>Our website is currently undergoing scheduled maintenance. We should be back shortly. Thank you for your
+            patience.</p>
         <div class="spinner"></div>
-        <p>Thank you for your patience!</p>
+        <footer>&copy; 2024 Your Company. All rights reserved.</footer>
     </div>
 </body>
 
